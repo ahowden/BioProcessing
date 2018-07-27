@@ -1,0 +1,45 @@
+{
+"bbduk":
+	{
+		"filesPath":"/data/userdata/ahowden/dataForPipelineOrganized",
+		"bbdukPath":"/data/userdata/ahowden/tools/bbmap/bbduk.sh",
+		"phixPWD":"/data/userdata/ahowden/tools/bbmap/SEAN/phix.fa",
+		"adapterPWD":"/data/userdata/ahowden/tools/bbmap/SEAN/adapters.fa",
+		"ktrim":"ktrim=r",
+		"k":"k=23",
+		"mink":"mink=11",
+		"hdist":"hdist=1",
+		"misc":"tpe tbo",
+		"qtrim":"qtrim=r",
+		"trimq":"trimq=20",
+		"maq":"maq=20",
+		"entropy":"entropy=0.8",
+		"minlen":"minlen=100"
+	},
+
+"fastaSplit":
+	{
+		"fastaSplitFiles":"1000"
+	},
+
+"blastn":
+	{
+		"blastnPath":"/data/userdata/ahowden/tools/blast/2.2.29/bin/blastn",
+		"database":"/data/userdata/ahowden/DB/SILVA_132_SSURef_Nr99_tax_silva_trunc.fasta",
+		"maxTargetSequences":"1",
+		"outputfmt":"5"
+	},
+
+"fastx":
+	{
+		"fastxFormatterPath":"/data/userdata/ahowden/tools/fastx/bin/fastq_to_fasta",
+		"maxTargetSequences":"1",
+		"outputfmt":"5"
+	},
+
+"parsemerge":
+	{
+		"parseMergePath":"/data/userdata/ahowden/tools/parsemerge/parsemerge.py",
+		"xmlParsePath":"/data/userdata/ahowden/tools/parsemerge/xmlparse.pl"
+	}
+}
